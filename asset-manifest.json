@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/consuelo-sanna/React-mytodo/static/js/main.d281e350.chunk.js",
+    "main.js.map": "/consuelo-sanna/React-mytodo/static/js/main.d281e350.chunk.js.map",
+    "runtime-main.js": "/consuelo-sanna/React-mytodo/static/js/runtime-main.7cd8b59b.js",
+    "runtime-main.js.map": "/consuelo-sanna/React-mytodo/static/js/runtime-main.7cd8b59b.js.map",
+    "static/js/2.2bb76d55.chunk.js": "/consuelo-sanna/React-mytodo/static/js/2.2bb76d55.chunk.js",
+    "static/js/2.2bb76d55.chunk.js.map": "/consuelo-sanna/React-mytodo/static/js/2.2bb76d55.chunk.js.map",
+    "index.html": "/consuelo-sanna/React-mytodo/index.html",
+    "precache-manifest.068e30a41ac3bf9a7a9ae1dcf890416a.js": "/consuelo-sanna/React-mytodo/precache-manifest.068e30a41ac3bf9a7a9ae1dcf890416a.js",
+    "service-worker.js": "/consuelo-sanna/React-mytodo/service-worker.js",
+    "static/js/2.2bb76d55.chunk.js.LICENSE": "/consuelo-sanna/React-mytodo/static/js/2.2bb76d55.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cd8b59b.js",
+    "static/js/2.2bb76d55.chunk.js",
+    "static/js/main.d281e350.chunk.js"
+  ]
+}
