@@ -13,12 +13,12 @@ class App extends Component {
 
   
   componentDidMount(){
-    axios.get('https://afternoon-thicket-04912.herokuapp.com/todoData.html')
+    axios.get(`https://afternoon-thicket-04912.herokuapp.com/todoData.html`)
       .then(res => this.setState({ todos: res.data }))
   }
  
   markComplete = (id) => { 
-    axios.put('https://afternoon-thicket-04912.herokuapp.com/todoData.html',{
+    axios.put(`https://afternoon-thicket-04912.herokuapp.com/todoData.html`,{
       data: id
     })
     .then(res => console.log(res.data));
@@ -41,7 +41,7 @@ class App extends Component {
 
   addTodo = (title) => {
     console.log(this.state.todos);
-    axios.post('https://afternoon-thicket-04912.herokuapp.com/todoData.html', {
+    axios.post(`https://afternoon-thicket-04912.herokuapp.com/todoData.html`, {
       title: title,
       completed: false
     })
